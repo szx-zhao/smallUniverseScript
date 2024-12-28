@@ -1,0 +1,16 @@
+2024-12-04 17:38:55,249 - INFO - Downloading chromedriver (131.0.6778.87)...
+2024-12-04 17:42:01,651 - INFO - Downloading chromedriver (131.0.6778.87)...
+2024-12-04 17:45:13,272 - INFO - Chromedriver is already installed.
+2024-12-04 17:45:29,737 - INFO - 音频文件URL: https://media.xyzcdn.net/lkZXSPmH3G16JU0s0seg1papIKF4.m4a
+2024-12-04 17:45:29,737 - INFO - 文件名: 60.大西洋上空的电波：万众瞩目的地窖凶杀案.m4a
+2024-12-04 17:46:01,758 - INFO - 音频文件下载成功，保存路径: D:\BaiduNetdiskDownload\RSS播客\60.大西洋上空的电波：万众瞩目的地窖凶杀案.m4a
+2024-12-04 17:46:59,989 - INFO - 音频文件URL: https://media.xyzcdn.net/ljghjFpkRmkAQUZdJf8mDRfcLqpl.m4a
+2024-12-04 17:46:59,989 - INFO - 文件名: 为什么电梯里要有镜子？图书馆服务台的「坑」有什么用？这些设计背后的目的是什么？.m4a
+2024-12-04 17:47:30,175 - INFO - 音频文件下载成功，保存路径: D:\BaiduNetdiskDownload\RSS播客\为什么电梯里要有镜子？图书馆服务台的「坑」有什么用？这些设计背后的目的是什么？.m4a
+2024-12-04 17:49:27,000 - INFO - 音频文件URL: https://media.xyzcdn.net/lvDR11G6kyPjq7pRjDoSVnRyfAcu.m4a
+2024-12-04 17:49:27,000 - INFO - 文件名: 海龟汤：三伏天，开门热，关门冷，关门热！.m4a
+2024-12-04 17:50:07,276 - INFO - 音频文件下载成功，保存路径: D:\BaiduNetdiskDownload\RSS播客\海龟汤：三伏天，开门热，关门冷，关门热！.m4a
+2024-12-04 17:51:06,190 - INFO - Chromedriver is already installed.
+2024-12-04 17:52:07,944 - INFO - 音频文件URL: https://media.xyzcdn.net/lkvic8pxsSR9PtEt4_0k7bIsdq3Q.m4a
+2024-12-04 17:52:07,944 - INFO - 文件名: vol.16 对谈黄执中：怎么成为一个会说话的人？.m4a
+2024-12-04 17:52:49,224 - INFO - 音频文件下载成功，保存路径: D:\BaiduNetdiskDownload\RSS播客\vol.16 对谈黄执中：怎么成为一个会说话的人？.m4a
