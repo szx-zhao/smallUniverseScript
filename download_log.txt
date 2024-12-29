@@ -14,3 +14,5 @@
 2024-12-04 17:52:07,944 - INFO - 音频文件URL: https://media.xyzcdn.net/lkvic8pxsSR9PtEt4_0k7bIsdq3Q.m4a
 2024-12-04 17:52:07,944 - INFO - 文件名: vol.16 对谈黄执中：怎么成为一个会说话的人？.m4a
 2024-12-04 17:52:49,224 - INFO - 音频文件下载成功，保存路径: D:\BaiduNetdiskDownload\RSS播客\vol.16 对谈黄执中：怎么成为一个会说话的人？.m4a
+2024-12-29 09:54:14,633 - INFO - Downloading chromedriver (131.0.6778.204)...
+2024-12-29 09:56:15,539 - INFO - Chromedriver is already installed.

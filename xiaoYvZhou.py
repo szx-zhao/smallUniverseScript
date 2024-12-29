@@ -10,6 +10,7 @@ import os  # 用于处理路径
 import tkinter as tk
 import logging
 from tkinter import filedialog, messagebox, ttk
+import socket  # 用于获取内网IP地址
 
 # 设置日志记录
 logging.basicConfig(filename='download_log.txt', level=logging.INFO, 
@@ -112,6 +113,27 @@ def download_audio():
     thread = threading.Thread(target=download_task)
     thread.start()
 
+# 获取内网IP地址
+def show_internal_ip():
+    import subprocess
+
+    try:
+        # 执行命令 `ipconfig` 并读取输出
+        result = subprocess.run("ipconfig", stdout=subprocess.PIPE, text=True, shell=True)
+        output = result.stdout
+
+        # 查找无线局域网适配器的相关信息
+        wlan_info = re.search(r"无线局域网适配器 WLAN.*?IPv4 地址.*?: ([\d.]+)", output, re.S)
+        if wlan_info:
+            internal_ip = wlan_info.group(1)
+            messagebox.showinfo("内网IP地址", f"您的无线局域网 IPv4 地址是: {internal_ip}")
+        else:
+            messagebox.showerror("错误", "未找到无线局域网适配器 WLAN 的 IPv4 地址")
+    except Exception as e:
+        logging.error(f"无法获取内网IP地址: {str(e)}")
+        messagebox.showerror("错误", "无法获取内网IP地址")
+
+
 # 选择文件保存的目录
 def browse_directory():
     directory = filedialog.askdirectory()
@@ -171,6 +193,10 @@ browse_button.pack(side=tk.LEFT)
 # 下载按钮
 download_button = tk.Button(root, text="下载音频", command=download_audio)
 download_button.pack(pady=20)
+
+# 显示内网IP按钮
+ip_button = tk.Button(root, text="显示内网IP", command=show_internal_ip)
+ip_button.pack(pady=10)
 
 # 创建进度条
 progress_bar = ttk.Progressbar(root, orient="horizontal", length=500, mode="determinate")
